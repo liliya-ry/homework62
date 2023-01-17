@@ -14,4 +14,14 @@ public class Config {
     public B b() {
         return new B();
     }
+
+    @Bean
+    public CustomInitializingBean exampleInitBean() {
+        return new CustomInitializingBean();
+    }
+
+    @Bean
+    public CustomDisposableBean exampleDestroyBean() {
+        return new CustomDisposableBean();
+    }
 }
