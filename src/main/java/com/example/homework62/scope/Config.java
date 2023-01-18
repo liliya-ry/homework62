@@ -22,4 +22,19 @@ public class Config {
     public C c() {
         return new C();
     }
+
+    @Bean
+    public RequestBean requestScopedBean() {
+        return new RequestBean();
+    }
+
+    @Bean
+    public SessionBean sessionScopedBean() {
+        return new SessionBean();
+    }
+
+    @Bean
+    public ApplicationBean applicationScopedBean() {
+        return new ApplicationBean();
+    }
 }
