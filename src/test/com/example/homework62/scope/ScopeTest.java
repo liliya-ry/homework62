@@ -1,11 +1,7 @@
-package test.com.example.homework62.scope;
+package com.example.homework62.scope;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-import com.example.homework62.scope.A;
-import com.example.homework62.scope.B;
-import com.example.homework62.scope.C;
-import com.example.homework62.scope.Config;
 import org.junit.jupiter.api.*;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
